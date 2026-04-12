@@ -1,0 +1,316 @@
+/* General Reset */
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #1A0B2E;
+  /* Deep dark purple background */
+}
+
+/* Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #1A0B2E;
+  color: white;
+}
+
+/* Logo Styling */
+.logo {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+/* Gradient Text for "Wave" */
+.logo span {
+  background: linear-gradient(135deg, #a020f0, #ff33cc, #ffc371);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Center Links */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #cccccc;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: white;
+}
+
+/* Subscribe Button */
+.btn-subscribe {
+  background: linear-gradient(90deg, #ffcc33, #ff33cc, #9933ff);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: transform 0.2s ease;
+}
+
+.btn-subscribe:hover {
+  transform: scale(1.05);
+}
+
+/* HERO SECTION */
+
+.hero-section {
+  background-color: #1A0B2E;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hero-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-wave {
+  position: absolute;
+  width: 100%;
+  max-width: 1400px;
+  z-index: 1;
+}
+
+.circle-area {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gradient-circle {
+  width: 320px;
+  height: auto;
+  filter: drop-shadow(0 0 30px rgba(153, 51, 255, 0.3));
+}
+
+.mic-box {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-area {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: #00ff88;
+  color: #000;
+  padding: 5px 12px;
+  font-size: 12px;
+  border-radius: 20px;
+  font-weight: bold;
+  box-shadow: 0 0 10px #00ff88;
+}
+
+.badge {
+  top: 10px;
+  right: 50px;
+}
+:root {
+  --spotify-grad: linear-gradient(90deg, #f9d423 0%, #ff4e50 50%, #bc13fe 100%);
+  --green-accent: #00c853;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.main-heading {
+  font-size: 48px;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sub-heading {
+  font-size: 20px;
+  color: #cccccc;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn-primary {
+  background: var(--spotify-grad);
+  color: white;
+  padding: 12px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: transform 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+}
+
+.btn-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  background-color: transparent;
+  color: #00fa9a;
+  border: 1.5px solid #00fa9a;
+  padding: 8px 25px;
+  border-radius: 100px;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+  gap: 12px;
+}
+
+/* Background and General Setup */
+.about-podcast {
+  background-color: #120a2e;
+  color: #ffffff;
+  padding: 80px 20px;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Typography */
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.description,
+.sub-description {
+  font-size: 18px;
+  color: #cccccc;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+}
+
+.sub-description {
+  margin-top: 40px;
+}
+
+/* Horizontal Line */
+.divider {
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 50px 0;
+}
+/* Stats Section */
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.stat-item {
+  flex: 1;
+  min-width: 200px;
+}
+
+.stat-number {
+  font-size: 56px;
+  color: #00ff88;
+  margin: 0;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.star {
+  font-size: 40px;
+  margin-left: 5px;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+/* Section Base */
+.why-choose {
+  background-color: #1a0b2e;
+  padding: 80px 40px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+

@@ -190,7 +190,6 @@ body {
   justify-content: center;
   gap: 20px;
 }
-
 .btn-primary {
   background: var(--spotify-grad);
   color: white;
@@ -224,7 +223,6 @@ body {
   text-decoration: none;
   gap: 12px;
 }
-
 /* Background and General Setup */
 .about-podcast {
   background-color: #120a2e;

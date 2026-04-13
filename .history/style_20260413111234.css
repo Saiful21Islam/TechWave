@@ -608,7 +608,7 @@ footer {
 }
 
 
-/* Medium Device (Tablet) */
+/* 🟡 Medium Device (Tablet) */
 @media (max-width: 992px) {
 
   /* Navbar */
@@ -627,9 +627,9 @@ footer {
     text-align: center;
   }
 
-}
 
-  /* Small Device (Mobile) */
+
+  /* 🔴 Small Device (Mobile) */
   @media (max-width: 576px) {
 
     /* Navbar */

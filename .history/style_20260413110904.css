@@ -302,7 +302,6 @@ body {
   text-transform: uppercase;
   font-weight: 500;
 }
-
 /* Section Base */
 .why-choose {
   background-color: #1a0b2e;
@@ -545,3 +544,4 @@ body {
   background: linear-gradient(45deg, #ff00ff, #7a4bbd);
   border-color: transparent;
 }
+

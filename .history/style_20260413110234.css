@@ -160,7 +160,6 @@ body {
   top: 10px;
   right: 50px;
 }
-
 :root {
   --spotify-grad: linear-gradient(90deg, #f9d423 0%, #ff4e50 50%, #bc13fe 100%);
   --green-accent: #00c853;
@@ -189,38 +188,5 @@ body {
   display: flex;
   justify-content: center;
   gap: 20px;
-}
-.btn-primary {
-  background: var(--spotify-grad);
-  color: white;
-  padding: 12px 30px;
-  border-radius: 50px;
-  text-decoration: none;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  transition: transform 0.2s ease;
-}
-
-.btn-primary:hover {
-  transform: scale(1.05);
-}
-
-.btn-btn-secondary {
-  display: inline-flex;
-  align-items: center;
-  background-color: transparent;
-  color: #00fa9a;
-  border: 1.5px solid #00fa9a;
-  padding: 8px 25px;
-  border-radius: 100px;
-  font-family: 'Segoe UI', Roboto, sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  cursor: pointer;
-  transition: 0.3s;
-  text-decoration: none;
-  gap: 12px;
 }
 
